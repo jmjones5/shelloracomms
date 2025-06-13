@@ -1,25 +1,35 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
-  <div class="container portfolio-flex-grid">
+  <div class="container portfolio-flex-grid section">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Portfolio</h2>
-        <hr class="star-primary">
+        <h2>Testimonials</h2>
+        <br/>
       </div>
     </div>
     <div class="portfolio-flex-row">
-      {% for post in site.posts %}
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-        </a>
-      </div>
-      {% endfor %}
+        <div class="portfolio-flex-item portfolio-item">
+          <p class="portfolio-quote">"Working with Lauren was an absolute pleasure. She supported us on a couple of PR campaigns, and not only was the process seamless, but the results exceeded our expectations. Lauren took the time to really understand our business and tell our story in a way that felt authentic and engaging.</p> 
+
+          <p class="portfolio-quote">Her communication throughout was clear, timely, and professional, and she brought a real energy and passion to the project. I wouldn’t hesitate to recommend Lauren to anyone looking for expert PR support — she’s fantastic at what she does and a real joy to work with."</p>
+          <p>Rebecca Hopwood - Founder and Marketing Director at Youbee Media</p>
+          <img src="img/portfolio/Youbee-Media.png" class="img-responsive" alt="image-alt">
+        </div>
+        <div class="portfolio-flex-item portfolio-item">
+          <p class="portfolio-quote">"We were very impressed with Lauren’s work promoting our events. Lauren’s sophisticated understanding of audiences enabled her to develop excellent campaigns, which both engaged our existing followers and developed new ones. She didn’t hesitate to use her network of contacts for her work with us and I would not hesitate to recommend her."</p>
+          <p>Alessandro Bucci - Director (CEO) at Holocaust Centre North</p>
+          <img src="img/portfolio/Holocaust_Centre_North.svg" class="img-responsive" alt="image-alt">
+        </div>
+        <div class="portfolio-flex-item portfolio-item">
+          <p class="portfolio-quote">"I highly recommend Lauren if you're looking for general marketing, social media, copywriting or PR support. She takes time to understand the brief, carries out the work thoroughly and ensures that clients are regularly updated. She is an absolute pleasure to work with too!"</p>
+          <p>Sophie Tekev - Founder and Director at LIT Communication</p>
+          <img src="img/portfolio/Lit_Communication.avif" class="img-responsive" alt="image-alt">
+        </div>
+        <div class="portfolio-flex-item portfolio-item">
+          <p class="portfolio-quote">"Super fast amazing service from Lauren and she listened and produced what I needed in record time to a very high standard. I have already recommended Lauren to my clients."</p>
+          <p>Rachel Brook - Founder and Director at Daisy Rose Massage and Wellness</p>
+          <img src="img/portfolio/Daisy-Rose.png" class="img-responsive" alt="image-alt">
+        </div>
     </div>
   </div>
 </section>
