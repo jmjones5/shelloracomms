@@ -566,6 +566,7 @@ footer .footer-below {
     background-image: url("img/svg/FloralPattern.svg");
     background-position: 50% 50%;
     background-size: 50vw auto;
+    background-color: #{{ site.color.primary }};
 }
 
 .fa-linkedin {
